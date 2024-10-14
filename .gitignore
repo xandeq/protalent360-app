@@ -5,6 +5,10 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
+<<<<<<< HEAD
+=======
+.pnpm-debug.log*
+>>>>>>> 726b9689ab468091328721b9e6c1a4f13989dea1
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
@@ -53,6 +57,12 @@ web_modules/
 # Optional eslint cache
 .eslintcache
 
+<<<<<<< HEAD
+=======
+# Optional stylelint cache
+.stylelintcache
+
+>>>>>>> 726b9689ab468091328721b9e6c1a4f13989dea1
 # Microbundle cache
 .rpt2_cache/
 .rts2_cache_cjs/
@@ -68,9 +78,18 @@ web_modules/
 # Yarn Integrity file
 .yarn-integrity
 
+<<<<<<< HEAD
 # dotenv environment variables file
 .env
 .env.test
+=======
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+>>>>>>> 726b9689ab468091328721b9e6c1a4f13989dea1
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -93,6 +112,16 @@ dist
 # vuepress build output
 .vuepress/dist
 
+<<<<<<< HEAD
+=======
+# vuepress v2.x temp and cache directory
+.temp
+.cache
+
+# Docusaurus cache and generated files
+.docusaurus
+
+>>>>>>> 726b9689ab468091328721b9e6c1a4f13989dea1
 # Serverless directories
 .serverless/
 
